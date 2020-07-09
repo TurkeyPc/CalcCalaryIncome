@@ -15,7 +15,7 @@ namespace CalcCalaryIncome {
 
                 if (earning < 551000)
                     return 0;
-                if (earning < 1619000)
+                if (earning < 1619999)
                     return earning - 550000;
                 if (earning < 1620000)
                     return (int)Math.Floor(earning * 0.6m) + 97600;
