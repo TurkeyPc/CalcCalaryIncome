@@ -1,20 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace CalcCalaryIncome
-{
-    public class Salary
-    {
+namespace CalcCalaryIncome {
+    public class Salary {
         private readonly int earning;
 
         public Salary(int earning) {
             this.earning = earning;
         }
 
-        public int income { 
+        public int income {
             get {
                 if (earning < 1)
                     throw new ArgumentException("Earning must Great Equal 1 Yen");
